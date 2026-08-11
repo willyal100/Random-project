@@ -14,9 +14,13 @@ Monthly budget vs. actual, a year-at-a-glance heatmap, savings goal math, debt p
 2. `listings/screenshots/personal-budget-dashboard--year-overview.png`
 3. `listings/screenshots/personal-budget-dashboard--savings-goals.png`
 4. `listings/screenshots/personal-budget-dashboard--debt-payoff.png`
-5. `listings/screenshots/personal-budget-dashboard--bills.png`
+5. `listings/screenshots/personal-budget-dashboard--theme-rose.png`
+6. `listings/screenshots/personal-budget-dashboard--bills.png`
 
-**File to upload:** `products/personal-budget-dashboard.xlsx`
+**Files to upload (all three — buyers get every theme):**
+- `products/personal-budget-dashboard.xlsx` (Emerald)
+- `products/personal-budget-dashboard-rose.xlsx` (Rose)
+- `products/personal-budget-dashboard-slate.xlsx` (Slate)
 
 ---
 
@@ -37,6 +41,7 @@ Most budgets fail because they're annoying to maintain. This one takes 10 second
 
 **Details that matter**
 
+- 🎨 **Three color themes included** — Emerald, Rose, and Slate. Same system, pick your vibe.
 - Works in **Microsoft Excel** (2016 or newer) and **Google Sheets** (upload to Drive → Open with Google Sheets)
 - No macros, no plugins, no subscription — buy once, use every year
 - **Break-proof:** formula cells are protected so a stray click can't ruin the math — every cell meant for typing is unlocked (and you can unprotect anytime, no password)
@@ -56,6 +61,6 @@ Most budgets fail because they're annoying to maintain. This one takes 10 second
 
 ---
 
-**Tags:** budget template, excel budget, google sheets budget, budget spreadsheet, annual budget, savings tracker, debt payoff, bill tracker, expense tracker, personal finance, monthly budget
+**Tags:** budget template, excel budget, google sheets budget, budget spreadsheet, annual budget, savings tracker, debt payoff, bill tracker, expense tracker, personal finance, monthly budget, aesthetic budget planner
 
 **Category:** Business & Money → Personal Finance

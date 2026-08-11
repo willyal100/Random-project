@@ -10,7 +10,7 @@ _Last updated: 2026-08-11_
 
 | # | Product | File | Suggested price | Status |
 |---|---------|------|-----------------|--------|
-| 1 | Personal Budget Dashboard **v3** — 8 tabs: monthly, annual heatmap, savings goals, debt payoff, bills | `products/personal-budget-dashboard.xlsx` | $12 (launch $9) | ✅ Built & verified — ready to list |
+| 1 | Personal Budget Dashboard **v3** — 8 tabs: monthly, annual heatmap, savings goals, debt payoff, bills · **3 color themes** (Emerald/Rose/Slate) | `products/personal-budget-dashboard*.xlsx` | $12 (launch $9) | ✅ Built & verified — ready to list |
 | 2 | Freelance Invoice + Income Tracker **v2** — adds quarterly view, avg days-to-pay, collection rate | `products/freelance-invoice-income-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
 | 3 | Small Business Bookkeeping Tracker **v2** — adds quarterly P&L, fee % per platform | `products/small-business-bookkeeping-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
 | 4 | **Bundle:** The Money Toolkit (all 3) | create as a Gumroad bundle | $29 | ⏳ Create after the 3 singles are live |
