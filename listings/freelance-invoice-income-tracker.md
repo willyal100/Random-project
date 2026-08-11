@@ -1,14 +1,18 @@
 # Listing: Freelance Invoice + Income Tracker
 
-**Product name (paste as Gumroad title):**
-Freelance Invoice Template + Income Tracker — Excel & Google Sheets
+**Product name (paste as Gumroad title — keywords front-loaded on purpose):**
+Invoice Template Excel & Google Sheets — Freelance Invoice Generator + Income Tracker with Payment Dashboard
 
 **Suggested price:** $14 (launch price $11 for the first two weeks)
 
 **One-liner (Gumroad summary field):**
-Send professional invoices in two minutes and always know who owes you what — invoices, income log, and dashboard in one file.
+Send professional invoices in two minutes and always know who owes you what — invoice generator, income log, and a dashboard that tracks collection rate and how fast clients actually pay.
 
 **Cover image:** `covers/freelance-invoice-income-tracker.png`
+**Gallery images (upload after the cover, in this order):**
+1. `listings/screenshots/freelance-invoice-income-tracker--dashboard.png`
+2. `listings/screenshots/freelance-invoice-income-tracker--invoice.png`
+3. `listings/screenshots/freelance-invoice-income-tracker--income-log.png`
 
 **File to upload:** `products/freelance-invoice-income-tracker.xlsx`
 
@@ -28,7 +32,7 @@ Freelancing means you're also the billing department. This file makes that part 
 
 - 🧾 Clean, print-ready invoice that auto-fills your business info, client details, due date, tax, and totals
 - 📒 Income log for 100 invoices a year with status tracking (Draft / Sent / Paid / Overdue) and color coding
-- 📊 Dashboard: total invoiced, collected, **outstanding**, invoices sent, monthly income chart, and revenue by client
+- 📊 Dashboard: total invoiced, collected, **outstanding**, plus the numbers other templates skip — **average days to pay, collection rate, average invoice value, and overdue amount** — with monthly income chart, quarter-by-quarter summary, and revenue by client
 - 👥 Client list that powers dropdowns everywhere (add a client once, never retype their details)
 - ✅ Start Here tab with plain-English instructions and example data
 
@@ -37,6 +41,7 @@ Freelancing means you're also the billing department. This file makes that part 
 - Works in **Microsoft Excel** (2016 or newer) and **Google Sheets** (upload to Drive → Open with Google Sheets)
 - No macros, no plugins, no subscription
 - Tax rate is configurable (set it to 0% if you don't charge tax) and due dates calculate from your payment terms
+- The screenshots in this listing are real, unedited exports from the actual file
 - Instant download
 
 **FAQ**

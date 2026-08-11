@@ -10,12 +10,14 @@ _Last updated: 2026-08-11_
 
 | # | Product | File | Suggested price | Status |
 |---|---------|------|-----------------|--------|
-| 1 | Personal Budget Dashboard | `products/personal-budget-dashboard.xlsx` | $12 (launch $9) | ✅ Built & verified — ready to list |
-| 2 | Freelance Invoice + Income Tracker | `products/freelance-invoice-income-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
-| 3 | Small Business Bookkeeping Tracker | `products/small-business-bookkeeping-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
+| 1 | Personal Budget Dashboard **v2** — monthly + annual heatmap + savings goals + bills | `products/personal-budget-dashboard.xlsx` | $12 (launch $9) | ✅ Built & verified — ready to list |
+| 2 | Freelance Invoice + Income Tracker **v2** — adds quarterly view, avg days-to-pay, collection rate | `products/freelance-invoice-income-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
+| 3 | Small Business Bookkeeping Tracker **v2** — adds quarterly P&L, fee % per platform | `products/small-business-bookkeeping-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
 | 4 | **Bundle:** The Money Toolkit (all 3) | create as a Gumroad bundle | $29 | ⏳ Create after the 3 singles are live |
 
-Every workbook was formula-verified: all formulas recalculate with zero errors, and dashboard numbers were checked against hand-computed totals from the example data.
+Every workbook was formula-verified: all formulas recalculate with zero errors, and dashboard numbers were checked against hand-computed totals from the example data (37 checks on v2).
+
+**v2 was built against competitive research:** bestselling budget templates bundle annual + monthly views, savings/debt tracking, and bill trackers in one file, and listings convert on multiple real screenshots with sample data plus keyword-front-loaded titles. All of that is now in: each listing has 3–4 real, unedited screenshots in `listings/screenshots/`, and titles lead with search keywords.
 
 ---
 
@@ -26,7 +28,7 @@ The only accounts a business needs someone real to own. Everything else is alrea
 - [ ] **Create a Gumroad account** — gumroad.com → Start selling. Free; Gumroad takes a cut per sale (roughly 10% + card processing — check their current pricing page) and there's no monthly fee, which is why it's the right first platform.
 - [ ] **Pick your store name** — set it in Gumroad → Settings → Profile. Ideas: *Ledgerly Studio*, *TidySheets*, *PlainNumbers*. Your call — tell Claude what you picked so listings/covers can match.
 - [ ] **Connect your payout method** — Gumroad → Settings → Payments (bank account or PayPal; requires identity verification). Money from sales lands here.
-- [ ] **Create the 3 products** — for each one: New product → Digital product → paste the title, price, and description from the matching file in `listings/` → upload the `.xlsx` from `products/` → upload the cover from `covers/` → Publish.
+- [ ] **Create the 3 products** — for each one: New product → Digital product → paste the title, price, and description from the matching file in `listings/` → upload the `.xlsx` from `products/` → upload the cover from `covers/` and the gallery screenshots from `listings/screenshots/` (order listed in each listing file) → Publish.
 - [ ] **Buy-test one product yourself** at a $0 price or with Gumroad's test mode, so you've seen the buyer experience once.
 - [ ] *(Optional, later)* **Etsy shop** — bigger template marketplace, but $0.20 per listing + more fees + more setup. Do it after the first Gumroad sale, not before.
 

@@ -1,14 +1,19 @@
 # Listing: Personal Budget Dashboard
 
-**Product name (paste as Gumroad title):**
-Personal Budget Dashboard — Excel & Google Sheets Budget Template
+**Product name (paste as Gumroad title — keywords front-loaded on purpose):**
+Budget Template Excel & Google Sheets — Annual + Monthly Budget Spreadsheet with Savings Goals & Bill Tracker
 
 **Suggested price:** $12 (launch price $9 for the first two weeks)
 
 **One-liner (Gumroad summary field):**
-Know exactly where your money goes — budget vs. actual for any month, with automatic warnings before you overspend.
+Monthly budget vs. actual, a year-at-a-glance heatmap, savings goal math, and a bill tracker — one file that shows exactly where your money goes.
 
 **Cover image:** `covers/personal-budget-dashboard.png`
+**Gallery images (upload after the cover, in this order):**
+1. `listings/screenshots/personal-budget-dashboard--dashboard.png`
+2. `listings/screenshots/personal-budget-dashboard--year-overview.png`
+3. `listings/screenshots/personal-budget-dashboard--savings-goals.png`
+4. `listings/screenshots/personal-budget-dashboard--bills.png`
 
 **File to upload:** `products/personal-budget-dashboard.xlsx`
 
@@ -16,40 +21,38 @@ Know exactly where your money goes — budget vs. actual for any month, with aut
 
 ## Description (paste into Gumroad description)
 
-Most budgets fail because they're annoying to maintain. This one takes 10 seconds per purchase: type the date, what it was, pick a category, done. The dashboard does everything else.
+Most budgets fail because they're annoying to maintain. This one takes 10 seconds per purchase: type the date, what it was, pick a category, done. The rest is automatic — the monthly view, the annual view, the savings math, all of it.
 
-**How it works**
+**Seven tabs, one system**
 
-1. Set your income and monthly budgets once (15 common categories pre-loaded — rename them to fit your life)
-2. Log purchases on the Transactions tab as you go
-3. Pick any month on the Dashboard and instantly see budget vs. actual, what's left, and a progress bar for every category
-
-**What's inside**
-
-- 📊 Dashboard with income, budgeted, spent, and left-to-spend at a glance
-- 🟢 Per-category progress bars that turn orange at 80% of budget and red when you're over
-- 📈 Budget vs. actual chart for the month you select
-- 🗂 20 customizable budget categories with dropdown selection (no typos, no miscounts)
-- 📝 300-row transaction log with automatic month filtering
-- ✅ Start Here tab with plain-English instructions and example data
+- 📊 **Dashboard** — pick any month: income, budgeted, spent, and left-to-spend, plus budget vs. actual for every category with progress bars that turn orange at 80% and red when you're over
+- 📅 **Year Overview** — twelve months of spending, a trend chart, and a category × month heatmap that makes your patterns impossible to miss
+- 🎯 **Savings Goals** — set a target and a date; the sheet calculates months left, exactly how much to put away monthly, and progress bars for each goal
+- 🧾 **Bills** — every recurring bill with amount, due day, and autopay status, totaled so you know your fixed costs cold
+- ⚙️ **Budget Setup** — income sources and 20 customizable categories (15 pre-loaded, rename anything)
+- ✍️ **Transactions** — a 300-row log with category dropdowns, feeding every view automatically
+- ✅ **Start Here** — plain-English instructions with example data included
 
 **Details that matter**
 
 - Works in **Microsoft Excel** (2016 or newer) and **Google Sheets** (upload to Drive → Open with Google Sheets)
 - No macros, no plugins, no subscription — buy once, use every year
-- Every number is a real formula: change a budget or fix a typo and everything updates
+- Every number is a real formula: fix a typo and everything updates
+- The screenshots in this listing are real, unedited exports from the actual file
 - Instant download, use it tonight
 
 **FAQ**
 
-*Can I add my own categories?* Yes — there are 5 empty slots, and every pre-loaded category can be renamed. Dropdowns and the dashboard follow your list automatically.
+*Can I add my own categories?* Yes — 5 empty slots plus every pre-loaded category can be renamed. Dropdowns, the dashboard, and the heatmap follow your list automatically.
 
-*Does it work on a phone?* It's best set up on a computer; after that, logging purchases works fine in the Excel or Sheets mobile apps.
+*Does it work on a phone?* Best set up on a computer; after that, logging purchases works fine in the Excel or Sheets mobile apps.
+
+*Multiple years?* Keep logging — the Dashboard and Year Overview both have a year selector.
 
 *Refunds?* If it doesn't work for you, reply to your receipt within 30 days and I'll refund you.
 
 ---
 
-**Tags:** budget template, excel budget, google sheets budget, personal finance, budget planner, expense tracker, monthly budget, money tracker
+**Tags:** budget template, excel budget, google sheets budget, budget spreadsheet, annual budget, savings tracker, bill tracker, expense tracker, personal finance, monthly budget
 
 **Category:** Business & Money → Personal Finance

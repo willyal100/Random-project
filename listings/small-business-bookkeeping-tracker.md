@@ -1,14 +1,18 @@
 # Listing: Small Business Bookkeeping Tracker
 
-**Product name (paste as Gumroad title):**
-Small Business Bookkeeping Spreadsheet — Income, Expenses & Profit Tracker (Excel + Google Sheets)
+**Product name (paste as Gumroad title — keywords front-loaded on purpose):**
+Bookkeeping Template Excel & Google Sheets — Small Business Income & Expense Tracker with Profit Dashboard
 
 **Suggested price:** $14 (launch price $11 for the first two weeks)
 
 **One-liner (Gumroad summary field):**
-Every sale, every expense, and your real profit — built for Gumroad, Etsy, and Shopify sellers who want bookkeeping without accounting software.
+Every sale, every expense, and your real profit — with quarterly P&L and a per-platform fee breakdown, built for Gumroad, Etsy, and Shopify sellers.
 
 **Cover image:** `covers/small-business-bookkeeping-tracker.png`
+**Gallery images (upload after the cover, in this order):**
+1. `listings/screenshots/small-business-bookkeeping-tracker--dashboard.png`
+2. `listings/screenshots/small-business-bookkeeping-tracker--income-log.png`
+3. `listings/screenshots/small-business-bookkeeping-tracker--products.png`
 
 **File to upload:** `products/small-business-bookkeeping-tracker.xlsx`
 
@@ -28,8 +32,8 @@ Every sale, every expense, and your real profit — built for Gumroad, Etsy, and
 **What's inside**
 
 - 📊 Dashboard: net revenue, expenses, **profit, and profit margin** for any year
-- 📅 Month-by-month P&L table with a revenue vs. expenses chart (negative months show in parentheses — you'll know)
-- 🏪 Revenue by platform (Gumroad / Etsy / Shopify / Direct / Other) so you can see where fees are eating you
+- 📅 Month-by-month **and quarter-by-quarter** P&L tables with a revenue vs. expenses chart (negative months show in parentheses — you'll know)
+- 🏪 Revenue by platform (Gumroad / Etsy / Shopify / Direct / Other) with **fees paid and fee % per platform** — see exactly where fees are eating you
 - 🏆 Revenue by product — find your bestseller
 - 📒 300-row income log with automatic net calculation + 300-row expense log with category dropdowns
 - ✅ Start Here tab with plain-English instructions and example data
@@ -39,6 +43,7 @@ Every sale, every expense, and your real profit — built for Gumroad, Etsy, and
 - Works in **Microsoft Excel** (2016 or newer) and **Google Sheets** (upload to Drive → Open with Google Sheets)
 - No macros, no plugins, no subscription — a fraction of the price of accounting software
 - Every number is a live formula — fix a typo and the whole dashboard updates
+- The screenshots in this listing are real, unedited exports from the actual file
 - Instant download
 
 *Note: this is a bookkeeping aid, not tax or accounting advice.*
