@@ -41,6 +41,7 @@ Every sale, every expense, and your real profit — with quarterly P&L and a per
 **Details that matter**
 
 - Works in **Microsoft Excel** (2016 or newer) and **Google Sheets** (upload to Drive → Open with Google Sheets)
+- **Break-proof:** formula cells are protected so a stray click can't ruin the math — every cell meant for typing is unlocked (unprotect anytime, no password)
 - No macros, no plugins, no subscription — a fraction of the price of accounting software
 - Every number is a live formula — fix a typo and the whole dashboard updates
 - The screenshots in this listing are real, unedited exports from the actual file

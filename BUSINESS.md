@@ -10,12 +10,14 @@ _Last updated: 2026-08-11_
 
 | # | Product | File | Suggested price | Status |
 |---|---------|------|-----------------|--------|
-| 1 | Personal Budget Dashboard **v2** — monthly + annual heatmap + savings goals + bills | `products/personal-budget-dashboard.xlsx` | $12 (launch $9) | ✅ Built & verified — ready to list |
+| 1 | Personal Budget Dashboard **v3** — 8 tabs: monthly, annual heatmap, savings goals, debt payoff, bills | `products/personal-budget-dashboard.xlsx` | $12 (launch $9) | ✅ Built & verified — ready to list |
 | 2 | Freelance Invoice + Income Tracker **v2** — adds quarterly view, avg days-to-pay, collection rate | `products/freelance-invoice-income-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
 | 3 | Small Business Bookkeeping Tracker **v2** — adds quarterly P&L, fee % per platform | `products/small-business-bookkeeping-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
 | 4 | **Bundle:** The Money Toolkit (all 3) | create as a Gumroad bundle | $29 | ⏳ Create after the 3 singles are live |
 
 Every workbook was formula-verified: all formulas recalculate with zero errors, and dashboard numbers were checked against hand-computed totals from the example data (37 checks on v2).
+
+**All three are break-proof:** formula cells carry sheet protection (no password) so buyers can't wreck the math by accident — the top post-purchase complaint on template listings — while every input cell stays unlocked.
 
 **v2 was built against competitive research:** bestselling budget templates bundle annual + monthly views, savings/debt tracking, and bill trackers in one file, and listings convert on multiple real screenshots with sample data plus keyword-front-loaded titles. All of that is now in: each listing has 3–4 real, unedited screenshots in `listings/screenshots/`, and titles lead with search keywords.
 

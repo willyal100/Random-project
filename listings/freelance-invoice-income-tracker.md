@@ -39,6 +39,7 @@ Freelancing means you're also the billing department. This file makes that part 
 **Details that matter**
 
 - Works in **Microsoft Excel** (2016 or newer) and **Google Sheets** (upload to Drive → Open with Google Sheets)
+- **Break-proof:** formula cells are protected so a stray click can't ruin the math — every cell meant for typing is unlocked (unprotect anytime, no password)
 - No macros, no plugins, no subscription
 - Tax rate is configurable (set it to 0% if you don't charge tax) and due dates calculate from your payment terms
 - The screenshots in this listing are real, unedited exports from the actual file
