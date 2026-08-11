@@ -14,7 +14,9 @@ Plan the year month by month, log expenses and revenue, and always know where yo
 2. `listings/screenshots/business-budget-tracker--budget-plan.png`
 3. `listings/screenshots/business-budget-tracker--expenses.png`
 
-**File to upload:** `products/business-budget-tracker.xlsx`
+**Listing video:** `assets/business-budget-tracker-tour.mp4`
+
+**Files to upload:** `products/business-budget-tracker.xlsx` + `extras/business-budget-tracker-welcome.pdf`
 
 ---
 

@@ -23,6 +23,7 @@ Monthly budget vs. actual, a year-at-a-glance heatmap, savings goal math, debt p
 - `products/personal-budget-dashboard.xlsx` (Emerald)
 - `products/personal-budget-dashboard-rose.xlsx` (Rose)
 - `products/personal-budget-dashboard-slate.xlsx` (Slate)
+- `extras/personal-budget-dashboard-welcome.pdf` (buyer welcome guide)
 
 ---
 

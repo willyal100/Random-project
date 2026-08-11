@@ -14,7 +14,9 @@ Send professional invoices in two minutes and always know who owes you what — 
 2. `listings/screenshots/freelance-invoice-income-tracker--invoice.png`
 3. `listings/screenshots/freelance-invoice-income-tracker--income-log.png`
 
-**File to upload:** `products/freelance-invoice-income-tracker.xlsx`
+**Listing video:** `assets/freelance-invoice-income-tracker-tour.mp4`
+
+**Files to upload:** `products/freelance-invoice-income-tracker.xlsx` + `extras/freelance-invoice-income-tracker-welcome.pdf`
 
 ---
 

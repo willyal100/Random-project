@@ -1,6 +1,6 @@
 # The Business — Plan & Operations
 
-**What this is:** a digital-products storefront selling polished spreadsheet templates, built and maintained in this repo with Claude. Phase 1 is three money-management templates sold on Gumroad. You handle the accounts and decisions; Claude builds, analyzes, and iterates.
+**What this is:** a digital-products storefront selling polished spreadsheet templates, built and maintained in this repo with Claude. Phase 1 is six money templates (five paid + one free lead magnet) sold on Gumroad, with marketing assets ready. You handle the accounts and decisions; Claude builds, analyzes, and iterates.
 
 _Last updated: 2026-08-11_
 
@@ -15,9 +15,12 @@ _Last updated: 2026-08-11_
 | 3 | Small Business Bookkeeping Tracker **v2** — adds quarterly P&L, fee % per platform | `products/small-business-bookkeeping-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
 | 4 | Business Budget & Expense Tracker — month-granular annual budget, expense + revenue logs, variance dashboard | `products/business-budget-tracker.xlsx` | $16 (launch $12) | ✅ Built & verified — ready to list |
 | 5 | Paycheck Budget Planner — zero-based budgeting per paycheck (biweekly/weekly) | `products/paycheck-budget-planner.xlsx` | $10 (launch $8) | ✅ Built & verified — ready to list |
-| 6 | **Bundle:** The Money Toolkit (all 5) | create as a Gumroad bundle | $45 | ⏳ Create after the singles are live |
+| 6 | **FREE:** Simple Budget Starter — lead magnet, collects emails, upsells the flagship | `products/free-simple-budget-starter.xlsx` | $0+ | ✅ Built & verified — ready to list |
+| 7 | **Bundle:** The Money Toolkit (all 5 paid) | create as a Gumroad bundle | $45 | ⏳ Create after the singles are live |
 
-**Listing video:** `assets/personal-budget-dashboard-tour.mp4` — 45-second tour of the flagship, ready to upload to its Gumroad gallery. A 60-second phone recording in your voice would be even better; use this until then.
+**Marketing & conversion assets (all ready):** tour videos for every paid product in `assets/` · 10 Pinterest pins with titles/descriptions in `marketing/` · buyer welcome PDFs in `extras/` (included in each download — they answer setup questions and ask for the rating) · bundle cover + listing.
+
+**Listing video (flagship):** `assets/personal-budget-dashboard-tour.mp4` — 45-second tour of the flagship, ready to upload to its Gumroad gallery. A 60-second phone recording in your voice would be even better; use this until then.
 
 **Store positioning:** a ladder that covers money management at every stage — personal (Budget Dashboard) → freelancer (Invoice Tracker) → seller (Bookkeeping Tracker) → small business (Business Budget). Personal *and* professional, one storefront.
 
@@ -36,7 +39,7 @@ The only accounts a business needs someone real to own. Everything else is alrea
 - [ ] **Create a Gumroad account** — gumroad.com → Start selling. Free; Gumroad takes a cut per sale (roughly 10% + card processing — check their current pricing page) and there's no monthly fee, which is why it's the right first platform.
 - [ ] **Pick your store name** — set it in Gumroad → Settings → Profile. Ideas: *Ledgerly Studio*, *TidySheets*, *PlainNumbers*. Your call — tell Claude what you picked so listings/covers can match.
 - [ ] **Connect your payout method** — Gumroad → Settings → Payments (bank account or PayPal; requires identity verification). Money from sales lands here.
-- [ ] **Create the 3 products** — for each one: New product → Digital product → paste the title, price, and description from the matching file in `listings/` → upload the `.xlsx` from `products/` → upload the cover from `covers/` and the gallery screenshots from `listings/screenshots/` (order listed in each listing file) → Publish.
+- [ ] **Create the 6 listings (5 paid + the free one)** — for each: New product → Digital product → paste the title, price, and description from the matching file in `listings/` → upload the `.xlsx` file(s) and welcome PDF listed there → upload the cover, tour video, and gallery screenshots (order listed in each listing file) → Publish. Then create the $45 bundle per `listings/money-toolkit-bundle.md`.
 - [ ] **Buy-test one product yourself** at a $0 price or with Gumroad's test mode, so you've seen the buyer experience once.
 - [ ] **Create the Google Sheets editions (~10 min)** — drag the files from `products/` into Google Drive, open each → it opens in Sheets → File → **Save as Google Sheets**. Then for each: Share → **Anyone with the link → Viewer**, copy the link, and change the ending `/edit...` to `/copy`. Paste that "make a copy" link into the product's Gumroad **content** area (so only buyers see it) with the note "Prefer Google Sheets? Click here and choose Make a copy." *(Alternative: approve the Google Drive permission for Claude and ask — I'll upload and convert them for you; sharing still needs your click.)*
 - [ ] *(Optional, later)* **Etsy shop** — bigger template marketplace, but $0.20 per listing + more fees + more setup. Do it after the first Gumroad sale, not before.
