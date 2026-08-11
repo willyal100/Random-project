@@ -1,0 +1,253 @@
+<title>Venture HQ</title>
+<style>
+  :root {
+    --bg: #F7F8F6;
+    --surface: #FFFFFF;
+    --ink: #1C2420;
+    --muted: #5C6B63;
+    --accent: #176B4F;
+    --accent-ink: #FFFFFF;
+    --amber: #B7791F;
+    --amber-bg: #FBF3E4;
+    --good-bg: #E7F2EC;
+    --line: #E2E7E2;
+    --code-bg: #EFF2EF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #131714;
+      --surface: #1B211D;
+      --ink: #E8ECE8;
+      --muted: #9AA79E;
+      --accent: #4CC08F;
+      --accent-ink: #10201A;
+      --amber: #D9A03F;
+      --amber-bg: #2A2419;
+      --good-bg: #1D2B23;
+      --line: #2A322C;
+      --code-bg: #232A25;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #131714;
+    --surface: #1B211D;
+    --ink: #E8ECE8;
+    --muted: #9AA79E;
+    --accent: #4CC08F;
+    --accent-ink: #10201A;
+    --amber: #D9A03F;
+    --amber-bg: #2A2419;
+    --good-bg: #1D2B23;
+    --line: #2A322C;
+    --code-bg: #232A25;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    padding: 48px 20px 80px;
+  }
+  main { max-width: 860px; margin: 0 auto; }
+  .mono { font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, Menlo, monospace; }
+
+  header { margin-bottom: 40px; }
+  .masthead { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  h1 { font-size: 2rem; letter-spacing: -0.02em; text-wrap: balance; }
+  .stamp {
+    font-family: ui-monospace, "SF Mono", Consolas, monospace;
+    font-size: 0.75rem; color: var(--muted); letter-spacing: 0.06em;
+  }
+  .status-line { margin-top: 10px; color: var(--muted); max-width: 62ch; }
+  .pill {
+    display: inline-block; padding: 3px 12px; border-radius: 999px;
+    font-family: ui-monospace, "SF Mono", Consolas, monospace;
+    font-size: 0.72rem; letter-spacing: 0.08em; vertical-align: 1px;
+  }
+  .pill.wait { background: var(--amber-bg); color: var(--amber); border: 1px solid var(--amber); }
+  .pill.ok { background: var(--good-bg); color: var(--accent); border: 1px solid var(--accent); }
+
+  .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 28px 0 0; }
+  .tile {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .tile .k { font-size: 0.7rem; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase; }
+  .tile .v {
+    font-family: ui-monospace, "SF Mono", Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 1.7rem; font-weight: 700; margin-top: 2px;
+  }
+  .tile .v small { font-size: 0.9rem; font-weight: 400; color: var(--muted); }
+
+  section { margin-top: 48px; }
+  h2 { font-size: 1.15rem; letter-spacing: -0.01em; margin-bottom: 4px; }
+  .h2-row { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; flex-wrap: wrap; }
+  .h2-row h2 { margin-bottom: 0; }
+  .lede { color: var(--muted); max-width: 62ch; margin-bottom: 18px; }
+
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .checklist li {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+    padding: 14px 16px; display: flex; gap: 13px; align-items: flex-start;
+  }
+  .checklist input[type="checkbox"] {
+    width: 19px; height: 19px; margin-top: 3px; accent-color: var(--accent); cursor: pointer; flex: none;
+  }
+  .checklist input[type="checkbox"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .checklist label { cursor: pointer; }
+  .checklist .do { font-weight: 600; }
+  .checklist .how { color: var(--muted); font-size: 0.92rem; margin-top: 2px; }
+  .checklist li.done { opacity: 0.55; }
+  .checklist li.done .do { text-decoration: line-through; }
+  code {
+    font-family: ui-monospace, "SF Mono", Consolas, monospace;
+    font-size: 0.85em; background: var(--code-bg); border-radius: 5px; padding: 1px 6px;
+    overflow-wrap: anywhere;
+  }
+
+  .table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; min-width: 620px; }
+  th {
+    text-align: left; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--muted); font-weight: 600; padding: 12px 16px; border-bottom: 1px solid var(--line);
+  }
+  td { padding: 12px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  td.num { font-family: ui-monospace, "SF Mono", Consolas, monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .prod { font-weight: 600; }
+  .files { color: var(--muted); font-size: 0.85rem; margin-top: 3px; }
+
+  .loop { display: flex; flex-direction: column; gap: 10px; }
+  .loop-item {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px;
+  }
+  .loop-item .who {
+    font-family: ui-monospace, "SF Mono", Consolas, monospace;
+    font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent);
+  }
+  .loop-item.you .who { color: var(--amber); }
+  .loop-item p { margin-top: 3px; }
+  .loop-item p, .road li { max-width: 68ch; }
+
+  .road { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .road li { display: flex; gap: 12px; align-items: baseline; }
+  .road .phase {
+    font-family: ui-monospace, "SF Mono", Consolas, monospace;
+    font-size: 0.72rem; letter-spacing: 0.06em; color: var(--muted); flex: none; width: 74px;
+  }
+  .road .now { color: var(--accent); font-weight: 700; }
+
+  .note { margin-top: 20px; padding: 13px 16px; border-left: 3px solid var(--amber); background: var(--amber-bg); border-radius: 0 8px 8px 0; font-size: 0.92rem; max-width: 68ch; }
+  footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
+  @media (max-width: 560px) { .tiles { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+  @media (prefers-reduced-motion: no-preference) {
+    .checklist li { transition: opacity 0.25s ease; }
+  }
+</style>
+
+<main>
+  <header>
+    <div class="masthead">
+      <h1>Venture HQ</h1>
+      <span class="stamp">EST. 2026-08-11 · PHASE 1</span>
+    </div>
+    <p class="status-line">
+      The template storefront, at a glance. Three products are built, verified, and packaged with
+      listing copy and covers. <span class="pill wait">WAITING ON YOU — GUMROAD SIGNUP</span>
+    </p>
+    <div class="tiles">
+      <div class="tile"><div class="k">Products ready</div><div class="v">3 <small>/ 3</small></div></div>
+      <div class="tile"><div class="k">Listed on Gumroad</div><div class="v">0 <small>/ 3</small></div></div>
+      <div class="tile"><div class="k">Sales to date</div><div class="v">$0 <small>let's fix that</small></div></div>
+    </div>
+  </header>
+
+  <section>
+    <div class="h2-row"><h2>Your move — the signup checklist</h2><span class="pill wait">~30 MIN, ONE TIME</span></div>
+    <p class="lede">The only parts of this business that need a real human's identity. Everything else is already done and sitting in the repo. Checkboxes save on this device.</p>
+    <ul class="checklist" id="checklist">
+      <li><input type="checkbox" id="c1"><label for="c1"><span class="do">Create a Gumroad account</span><div class="how">gumroad.com → Start selling. Free, no monthly fee — they take roughly 10% + card processing per sale, which is why it's the right first platform.</div></label></li>
+      <li><input type="checkbox" id="c2"><label for="c2"><span class="do">Pick your store name</span><div class="how">Settings → Profile. Ideas on file: Ledgerly Studio, TidySheets, PlainNumbers. Tell Claude what you pick so listings and covers can match.</div></label></li>
+      <li><input type="checkbox" id="c3"><label for="c3"><span class="do">Connect your payout method</span><div class="how">Settings → Payments — bank account or PayPal, with identity verification. This is where sale money lands.</div></label></li>
+      <li><input type="checkbox" id="c4"><label for="c4"><span class="do">Create the three listings</span><div class="how">For each product: New product → Digital product → paste title, price, and description from <code>listings/*.md</code> → upload the <code>.xlsx</code> from <code>products/</code> → upload the cover from <code>covers/</code> → Publish.</div></label></li>
+      <li><input type="checkbox" id="c5"><label for="c5"><span class="do">Buy-test one product</span><div class="how">Use Gumroad's test purchase so you've seen the buyer experience once before real customers do.</div></label></li>
+      <li><input type="checkbox" id="c6"><label for="c6"><span class="do">Tell Claude "listings are live"</span><div class="how">That unlocks the next moves: the $29 bundle, a free lite version to collect emails, and Pinterest marketing assets.</div></label></li>
+    </ul>
+    <div class="note"><strong>Never needed:</strong> your bank details, passwords, or payment logins. If we later automate sales reporting, a read-only Gumroad API key is the only credential worth discussing — and only once there are sales to report.</div>
+  </section>
+
+  <section>
+    <h2>The catalog</h2>
+    <p class="lede">Every workbook was rebuilt from scripts and formula-verified: all formulas recalculate cleanly, and dashboard numbers were checked against hand-computed totals.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Product</th><th>Price</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><div class="prod">Personal Budget Dashboard</div><div class="files">products/personal-budget-dashboard.xlsx · listing + cover ready</div></td>
+            <td class="num">$12 <br><span class="files">launch $9</span></td>
+            <td><span class="pill ok">READY TO LIST</span></td>
+          </tr>
+          <tr>
+            <td><div class="prod">Freelance Invoice + Income Tracker</div><div class="files">products/freelance-invoice-income-tracker.xlsx · listing + cover ready</div></td>
+            <td class="num">$14 <br><span class="files">launch $11</span></td>
+            <td><span class="pill ok">READY TO LIST</span></td>
+          </tr>
+          <tr>
+            <td><div class="prod">Small Business Bookkeeping Tracker</div><div class="files">products/small-business-bookkeeping-tracker.xlsx · listing + cover ready</div></td>
+            <td class="num">$14 <br><span class="files">launch $11</span></td>
+            <td><span class="pill ok">READY TO LIST</span></td>
+          </tr>
+          <tr>
+            <td><div class="prod">The Money Toolkit — bundle of all three</div><div class="files">create as a Gumroad bundle once the singles are live</div></td>
+            <td class="num">$29</td>
+            <td><span class="pill wait">AFTER LAUNCH</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>How we run it</h2>
+    <p class="lede">The operating loop — who does what, so the business keeps moving without either of us babysitting it.</p>
+    <div class="loop">
+      <div class="loop-item you"><div class="who">You</div><p>Own the accounts and decisions: Gumroad, payouts, prices, the store name. When sales happen, paste the numbers into chat — or drop them in <code>tracking/sales-log.csv</code> yourself.</p></div>
+      <div class="loop-item"><div class="who">Claude</div><p>Builds and maintains products, listings, covers, and marketing assets; keeps the sales log and this HQ page current; analyzes what's selling and proposes the next move.</p></div>
+      <div class="loop-item"><div class="who">Optional autopilot</div><p>Once listings are live, ask for the <strong>weekly review routine</strong>: every Monday a session wakes up, reads the sales log, updates this page, and leaves you a short "how's business" report with suggested actions.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Roadmap</h2>
+    <ul class="road">
+      <li><span class="phase now">NOW</span><span>List the three products. Get the first sale. Learn what converts.</span></li>
+      <li><span class="phase">PHASE 1.5</span><span>Bundle at $29 · free lite budget sheet to collect emails · Pinterest pins (templates are one of its biggest niches).</span></li>
+      <li><span class="phase">PHASE 2</span><span>After ~30 days of data: double down on the winning niche (more templates, Etsy expansion) — or start the bigger swing, a micro-SaaS or auto-updating content site.</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    Everything lives in <span class="mono">willyal100/Random-project</span> on branch
+    <span class="mono">claude/what-we-can-build-y7hfmn</span> — products, listings, covers, plan
+    (<span class="mono">BUSINESS.md</span>), and the sales log. Income from sales is taxable;
+    keep the bookkeeping tracker honest.
+  </footer>
+</main>
+
+<script>
+  (function () {
+    var boxes = document.querySelectorAll('#checklist input[type="checkbox"]');
+    boxes.forEach(function (b) {
+      try { if (localStorage.getItem('hq-' + b.id) === '1') b.checked = true; } catch (e) {}
+      sync(b);
+      b.addEventListener('change', function () {
+        try { localStorage.setItem('hq-' + b.id, b.checked ? '1' : '0'); } catch (e) {}
+        sync(b);
+      });
+    });
+    function sync(b) { b.closest('li').classList.toggle('done', b.checked); }
+  })();
+</script>
