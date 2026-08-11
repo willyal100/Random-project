@@ -17,6 +17,8 @@ Monthly budget vs. actual, a year-at-a-glance heatmap, savings goal math, debt p
 5. `listings/screenshots/personal-budget-dashboard--theme-rose.png`
 6. `listings/screenshots/personal-budget-dashboard--bills.png`
 
+**Listing video (upload in the gallery, before the screenshots):** `assets/personal-budget-dashboard-tour.mp4` — a 45-second tab-by-tab tour built from real exports.
+
 **Files to upload (all three — buyers get every theme):**
 - `products/personal-budget-dashboard.xlsx` (Emerald)
 - `products/personal-budget-dashboard-rose.xlsx` (Rose)

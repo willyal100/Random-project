@@ -14,7 +14,10 @@ _Last updated: 2026-08-11_
 | 2 | Freelance Invoice + Income Tracker **v2** — adds quarterly view, avg days-to-pay, collection rate | `products/freelance-invoice-income-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
 | 3 | Small Business Bookkeeping Tracker **v2** — adds quarterly P&L, fee % per platform | `products/small-business-bookkeeping-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
 | 4 | Business Budget & Expense Tracker — month-granular annual budget, expense + revenue logs, variance dashboard | `products/business-budget-tracker.xlsx` | $16 (launch $12) | ✅ Built & verified — ready to list |
-| 5 | **Bundle:** The Money Toolkit (all 4) | create as a Gumroad bundle | $39 | ⏳ Create after the singles are live |
+| 5 | Paycheck Budget Planner — zero-based budgeting per paycheck (biweekly/weekly) | `products/paycheck-budget-planner.xlsx` | $10 (launch $8) | ✅ Built & verified — ready to list |
+| 6 | **Bundle:** The Money Toolkit (all 5) | create as a Gumroad bundle | $45 | ⏳ Create after the singles are live |
+
+**Listing video:** `assets/personal-budget-dashboard-tour.mp4` — 45-second tour of the flagship, ready to upload to its Gumroad gallery. A 60-second phone recording in your voice would be even better; use this until then.
 
 **Store positioning:** a ladder that covers money management at every stage — personal (Budget Dashboard) → freelancer (Invoice Tracker) → seller (Bookkeeping Tracker) → small business (Business Budget). Personal *and* professional, one storefront.
 
@@ -35,6 +38,7 @@ The only accounts a business needs someone real to own. Everything else is alrea
 - [ ] **Connect your payout method** — Gumroad → Settings → Payments (bank account or PayPal; requires identity verification). Money from sales lands here.
 - [ ] **Create the 3 products** — for each one: New product → Digital product → paste the title, price, and description from the matching file in `listings/` → upload the `.xlsx` from `products/` → upload the cover from `covers/` and the gallery screenshots from `listings/screenshots/` (order listed in each listing file) → Publish.
 - [ ] **Buy-test one product yourself** at a $0 price or with Gumroad's test mode, so you've seen the buyer experience once.
+- [ ] **Create the Google Sheets editions (~10 min)** — drag the files from `products/` into Google Drive, open each → it opens in Sheets → File → **Save as Google Sheets**. Then for each: Share → **Anyone with the link → Viewer**, copy the link, and change the ending `/edit...` to `/copy`. Paste that "make a copy" link into the product's Gumroad **content** area (so only buyers see it) with the note "Prefer Google Sheets? Click here and choose Make a copy." *(Alternative: approve the Google Drive permission for Claude and ask — I'll upload and convert them for you; sharing still needs your click.)*
 - [ ] *(Optional, later)* **Etsy shop** — bigger template marketplace, but $0.20 per listing + more fees + more setup. Do it after the first Gumroad sale, not before.
 
 **What you never need to give Claude:** bank details, passwords, or payment logins. If you later want automated sales reporting, Gumroad has an API key you can create with read-only scope — that's the only credential worth discussing, and only when there are sales to report.
