@@ -13,7 +13,10 @@ _Last updated: 2026-08-11_
 | 1 | Personal Budget Dashboard **v3** — 8 tabs: monthly, annual heatmap, savings goals, debt payoff, bills · **3 color themes** (Emerald/Rose/Slate) | `products/personal-budget-dashboard*.xlsx` | $12 (launch $9) | ✅ Built & verified — ready to list |
 | 2 | Freelance Invoice + Income Tracker **v2** — adds quarterly view, avg days-to-pay, collection rate | `products/freelance-invoice-income-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
 | 3 | Small Business Bookkeeping Tracker **v2** — adds quarterly P&L, fee % per platform | `products/small-business-bookkeeping-tracker.xlsx` | $14 (launch $11) | ✅ Built & verified — ready to list |
-| 4 | **Bundle:** The Money Toolkit (all 3) | create as a Gumroad bundle | $29 | ⏳ Create after the 3 singles are live |
+| 4 | Business Budget & Expense Tracker — month-granular annual budget, expense + revenue logs, variance dashboard | `products/business-budget-tracker.xlsx` | $16 (launch $12) | ✅ Built & verified — ready to list |
+| 5 | **Bundle:** The Money Toolkit (all 4) | create as a Gumroad bundle | $39 | ⏳ Create after the singles are live |
+
+**Store positioning:** a ladder that covers money management at every stage — personal (Budget Dashboard) → freelancer (Invoice Tracker) → seller (Bookkeeping Tracker) → small business (Business Budget). Personal *and* professional, one storefront.
 
 Every workbook was formula-verified: all formulas recalculate with zero errors, and dashboard numbers were checked against hand-computed totals from the example data (37 checks on v2).
 
