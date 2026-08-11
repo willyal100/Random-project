@@ -18,7 +18,9 @@ _Last updated: 2026-08-11_
 | 6 | **FREE:** Simple Budget Starter — lead magnet, collects emails, upsells the flagship | `products/free-simple-budget-starter.xlsx` | $0+ | ✅ Built & verified — ready to list |
 | 7 | **Bundle:** The Money Toolkit (all 5 paid) | create as a Gumroad bundle | $45 | ⏳ Create after the singles are live |
 
-**Marketing & conversion assets (all ready):** tour videos for every paid product in `assets/` · 10 Pinterest pins with titles/descriptions in `marketing/` · buyer welcome PDFs in `extras/` (included in each download — they answer setup questions and ask for the rating) · bundle cover + listing.
+**Marketing & conversion assets (all ready):** tour videos for every paid product in `assets/` — **all with an original background music bed** · 10 Pinterest pins with titles/descriptions in `marketing/` · buyer welcome PDFs in `extras/` (included in each download — they answer setup questions and ask for the rating) · bundle cover + listing.
+
+**Music rights:** the track under the videos (`assets/music/tutorial-bed.m4a`) was composed programmatically for this store — we own it outright. No attribution, no license terms, safe for commercial use everywhere, forever. Never swap in "no copyright" YouTube music without checking its actual license (most require attribution or ban commercial use).
 
 **Listing video (flagship):** `assets/personal-budget-dashboard-tour.mp4` — 45-second tour of the flagship, ready to upload to its Gumroad gallery. A 60-second phone recording in your voice would be even better; use this until then.
 
