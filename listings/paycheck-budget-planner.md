@@ -10,8 +10,8 @@ Budget per paycheck, not per month — assign every dollar of each check to bill
 
 **Cover image:** `covers/paycheck-budget-planner.png`
 **Gallery images (upload after the cover, in this order):**
-1. `listings/screenshots/paycheck-budget-planner--paycheck-planner.png`
-2. `listings/screenshots/paycheck-budget-planner--setup.png`
+1. `listings/gallery/paycheck-budget-planner--paycheck-planner.png`
+2. `listings/gallery/paycheck-budget-planner--setup.png`
 
 **Listing video:** `assets/paycheck-budget-planner-tour.mp4`
 

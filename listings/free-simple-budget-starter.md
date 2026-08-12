@@ -7,7 +7,7 @@
 **One-liner:** The simplest budget that actually works: income, twelve categories, budget vs. spent with instant feedback. Free.
 
 **Cover image:** `covers/free-simple-budget-starter.png`
-**Gallery image:** `listings/screenshots/free-simple-budget-starter--my-budget.png`
+**Gallery image:** `listings/gallery/free-simple-budget-starter--my-budget.png`
 **Files to upload:** `products/free-simple-budget-starter.xlsx` + `extras/free-simple-budget-starter-welcome.pdf`
 
 ---

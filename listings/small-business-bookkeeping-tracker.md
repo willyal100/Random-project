@@ -10,9 +10,9 @@ Every sale, every expense, and your real profit — with quarterly P&L and a per
 
 **Cover image:** `covers/small-business-bookkeeping-tracker.png`
 **Gallery images (upload after the cover, in this order):**
-1. `listings/screenshots/small-business-bookkeeping-tracker--dashboard.png`
-2. `listings/screenshots/small-business-bookkeeping-tracker--income-log.png`
-3. `listings/screenshots/small-business-bookkeeping-tracker--products.png`
+1. `listings/gallery/small-business-bookkeeping-tracker--dashboard.png`
+2. `listings/gallery/small-business-bookkeeping-tracker--income-log.png`
+3. `listings/gallery/small-business-bookkeeping-tracker--products.png`
 
 **Listing video:** `assets/small-business-bookkeeping-tracker-tour.mp4`
 

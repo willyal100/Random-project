@@ -10,9 +10,9 @@ Plan the year month by month, log expenses and revenue, and always know where yo
 
 **Cover image:** `covers/business-budget-tracker.png`
 **Gallery images (upload after the cover, in this order):**
-1. `listings/screenshots/business-budget-tracker--dashboard.png`
-2. `listings/screenshots/business-budget-tracker--budget-plan.png`
-3. `listings/screenshots/business-budget-tracker--expenses.png`
+1. `listings/gallery/business-budget-tracker--dashboard.png`
+2. `listings/gallery/business-budget-tracker--budget-plan.png`
+3. `listings/gallery/business-budget-tracker--expenses.png`
 
 **Listing video:** `assets/business-budget-tracker-tour.mp4`
 

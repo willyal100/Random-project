@@ -10,9 +10,9 @@ Send professional invoices in two minutes and always know who owes you what — 
 
 **Cover image:** `covers/freelance-invoice-income-tracker.png`
 **Gallery images (upload after the cover, in this order):**
-1. `listings/screenshots/freelance-invoice-income-tracker--dashboard.png`
-2. `listings/screenshots/freelance-invoice-income-tracker--invoice.png`
-3. `listings/screenshots/freelance-invoice-income-tracker--income-log.png`
+1. `listings/gallery/freelance-invoice-income-tracker--dashboard.png`
+2. `listings/gallery/freelance-invoice-income-tracker--invoice.png`
+3. `listings/gallery/freelance-invoice-income-tracker--income-log.png`
 
 **Listing video:** `assets/freelance-invoice-income-tracker-tour.mp4`
 

@@ -10,12 +10,12 @@ Monthly budget vs. actual, a year-at-a-glance heatmap, savings goal math, debt p
 
 **Cover image:** `covers/personal-budget-dashboard.png`
 **Gallery images (upload after the cover, in this order):**
-1. `listings/screenshots/personal-budget-dashboard--dashboard.png`
-2. `listings/screenshots/personal-budget-dashboard--year-overview.png`
-3. `listings/screenshots/personal-budget-dashboard--savings-goals.png`
-4. `listings/screenshots/personal-budget-dashboard--debt-payoff.png`
-5. `listings/screenshots/personal-budget-dashboard--theme-rose.png`
-6. `listings/screenshots/personal-budget-dashboard--bills.png`
+1. `listings/gallery/personal-budget-dashboard--dashboard.png`
+2. `listings/gallery/personal-budget-dashboard--year-overview.png`
+3. `listings/gallery/personal-budget-dashboard--savings-goals.png`
+4. `listings/gallery/personal-budget-dashboard--debt-payoff.png`
+5. `listings/gallery/personal-budget-dashboard--theme-rose.png`
+6. `listings/gallery/personal-budget-dashboard--bills.png`
 
 **Listing video (upload in the gallery, before the screenshots):** `assets/personal-budget-dashboard-tour.mp4` — a 45-second tab-by-tab tour built from real exports.
 
