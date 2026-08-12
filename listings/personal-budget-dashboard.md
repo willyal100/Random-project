@@ -33,6 +33,7 @@ Most budgets fail because they're annoying to maintain. This one takes 10 second
 
 **Eight tabs, one system**
 
+- 🧠 **INSIGHTS panel** — the sheet writes plain-English analysis by itself: month-end pace projection, biggest overrun, most room left, spending vs last month, largest purchase
 - 📊 **Dashboard** — pick any month: income, budgeted, spent, and left-to-spend, plus budget vs. actual for every category with progress bars that turn orange at 80% and red when you're over
 - 📅 **Year Overview** — twelve months of spending, a trend chart, and a category × month heatmap that makes your patterns impossible to miss
 - 🎯 **Savings Goals** — set a target and a date; the sheet calculates months left, exactly how much to put away monthly, and progress bars for each goal

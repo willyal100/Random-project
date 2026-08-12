@@ -35,6 +35,8 @@ Freelancing means you're also the billing department. This file makes that part 
 - 🧾 Clean, print-ready invoice that auto-fills your business info, client details, due date, tax, and totals
 - 📒 Income log for 100 invoices a year with status tracking (Draft / Sent / Paid / Overdue) and color coding
 - 📊 Dashboard: total invoiced, collected, **outstanding**, plus the numbers other templates skip — **average days to pay, collection rate, average invoice value, and overdue amount** — with monthly income chart, quarter-by-quarter summary, and revenue by client
+- 🧠 **Auto-written insights** — unpaid totals, your busiest month, how old your oldest unpaid invoice is, and top-client concentration, in plain English
+- 🔎 The income log is a real Excel table — sort and filter with one click
 - 👥 Client list that powers dropdowns everywhere (add a client once, never retype their details)
 - ✅ Start Here tab with plain-English instructions and example data
 

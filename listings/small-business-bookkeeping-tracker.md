@@ -37,6 +37,8 @@ Every sale, every expense, and your real profit — with quarterly P&L and a per
 - 📅 Month-by-month **and quarter-by-quarter** P&L tables with a revenue vs. expenses chart (negative months show in parentheses — you'll know)
 - 🏪 Revenue by platform (Gumroad / Etsy / Shopify / Direct / Other) with **fees paid and fee % per platform** — see exactly where fees are eating you
 - 🏆 Revenue by product — find your bestseller
+- 🧠 **Auto-written insights** — run-rate projection, best month so far, what fees are really taking, and your bestseller, written by the sheet itself
+- 🔎 Income and expense logs are real Excel tables — sort and filter with one click
 - 📒 300-row income log with automatic net calculation + 300-row expense log with category dropdowns
 - ✅ Start Here tab with plain-English instructions and example data
 

@@ -18,6 +18,8 @@ _Last updated: 2026-08-11_
 | 6 | **FREE:** Simple Budget Starter — lead magnet, collects emails, upsells the flagship | `products/free-simple-budget-starter.xlsx` | $0+ | ✅ Built & verified — ready to list |
 | 7 | **Bundle:** The Money Toolkit (all 5 paid) | create as a Gumroad bundle | $45 | ⏳ Create after the singles are live |
 
+**INSIGHTS engine (new):** every paid dashboard now writes plain-English analysis from the buyer's own numbers — pace projections, month-end forecasts, biggest overruns, slowest payers, run rates, fee drag — and every log is a real sortable/filterable Excel table. Each sentence is formula-driven and was verified character-for-character against independently computed values.
+
 **Marketing & conversion assets (all ready):** tour videos for every paid product in `assets/` — **all with an original background music bed** · 10 Pinterest pins with titles/descriptions in `marketing/` · buyer welcome PDFs in `extras/` (included in each download — they answer setup questions and ask for the rating) · bundle cover + listing.
 
 **Music rights:** the track under the videos (`assets/music/tutorial-bed.m4a`) was composed programmatically for this store — we own it outright. No attribution, no license terms, safe for commercial use everywhere, forever. Never swap in "no copyright" YouTube music without checking its actual license (most require attribution or ban commercial use).

@@ -39,6 +39,8 @@ Small businesses, startups, agencies, nonprofits, and side businesses that have 
 
 - Works in **Microsoft Excel** (2016 or newer) and **Google Sheets** (upload to Drive → Open with Google Sheets)
 - **Break-proof:** formula cells are protected so a stray click can't ruin the math — every cell meant for typing is unlocked (unprotect anytime, no password)
+- 🧠 **Auto-written insights** — % of year gone vs % of budget spent, year-end spend projection, largest cost center, and profit kept per revenue dollar
+- 🔎 Expense and revenue logs are real Excel tables — sort and filter with one click
 - Month-granular budgeting — not one flat number stretched across the year
 - Every number is a live formula; the screenshots in this listing are real, unedited exports from the actual file
 - No macros, no plugins, no subscription — instant download
